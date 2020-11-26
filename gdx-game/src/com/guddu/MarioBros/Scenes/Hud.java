@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.g2d.*;
 import com.guddu.MarioBros.*;
 import com.badlogic.gdx.graphics.*;
 
+// hud is place where score, level, player name etc shows up
 public class Hud
 {
 	public Stage stage;
@@ -28,7 +29,8 @@ public class Hud
 		
 		viewport = new FitViewport(MarioBros.V_WIDTH, MarioBros.V_HEIGHT, new OrthographicCamera());
 		stage = new Stage(viewport, sb);
-		
+
+		// creating tables so that screen ratio of different devices does'nt mess up with logos and buttons
 		Table table = new Table();
 		table.top();
 		table.setFillParent(true);
