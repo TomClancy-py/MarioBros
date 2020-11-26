@@ -15,7 +15,6 @@ public class MarioBros extends Game
 	@Override
 	public void render()
 	{
-		// TODO: Implement this method
 		super.render();
 	}
 
